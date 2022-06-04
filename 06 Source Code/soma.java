@@ -5,11 +5,14 @@ public class Main
 	public static void main(String[] args) {
 	   Scanner sc = new Scanner(System.in);
 	    
-	   System.out.println("Entre com um numero");
+	   System.out.println("Entre com um numero 1: ");
 	   int n1 = sc.nextInt();
 	    
-	   System.out.println("Hello World "+n1);
+	   System.out.println("Entre com um numero 2: ");
+	   int n2 = sc.nextInt();
+	    
+	   System.out.println("Resultado: " + (n1+n2) );
 
-	   sc.Close();
+	   sc.close();
 	}
 }
